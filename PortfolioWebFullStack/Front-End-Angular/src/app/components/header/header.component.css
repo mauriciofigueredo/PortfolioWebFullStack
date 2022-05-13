@@ -1,0 +1,9 @@
+#encabezado{
+    background-color: black;
+}
+
+app-social{
+    height: 5em;
+    float: right;
+    margin-top: 1em;
+}
