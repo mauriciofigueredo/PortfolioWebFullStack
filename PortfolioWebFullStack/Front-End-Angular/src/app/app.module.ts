@@ -7,10 +7,12 @@ import { SocialComponent } from './components/social/social.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { AcercaDeComponent } from './components/acerca-de/acerca-de.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
-import { FormacionComponent } from './formacion/formacion.component';
-import { SkillsComponent } from './skills/skills.component';
+import { FormacionComponent } from './components/formacion/formacion.component';
+import { SkillsComponent } from './components/skills/skills.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { NgChartsModule } from 'ng2-charts';
+import { ProyectosComponent } from './components/proyectos/proyectos.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { NgChartsModule } from 'ng2-charts';
     AcercaDeComponent,
     ExperienciaComponent,
     FormacionComponent,
-    SkillsComponent
+    SkillsComponent,
+    ProyectosComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
